@@ -16,8 +16,7 @@ spec:
     spec:
       containers:
       - name: node-hello
-        # TODO: Replace with your actual image path
-        image: your-docker-username/node-hello:latest
+        image: ramkaje341/nodeexam:latest
         ports:
         - containerPort: 3000
         imagePullPolicy: IfNotPresent
