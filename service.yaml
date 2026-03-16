@@ -4,10 +4,9 @@ metadata:
   name: node-hello-service
 spec:
   selector:
-    # Must match the labels in the deployment
     app: node-hello
   ports:
     - protocol: TCP
       port: 80
       targetPort: 3000
-  type: LoadBalancer
+  type: NodePort
