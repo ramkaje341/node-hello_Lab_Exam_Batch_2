@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: node-hello
-        image: ramkaje341/nodeexam:latest
+        image: ramkaje341/nodeapp:latest
         ports:
         - containerPort: 3000
         imagePullPolicy: IfNotPresent
